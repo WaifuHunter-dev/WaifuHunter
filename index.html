@@ -52,10 +52,22 @@
           background-color: transparent;
           text-decoration: underline;
         }
+        
+        .Welcome{
+            animation: blink 1s linear infinite;
+            font-size: 150px;
+            display: flex;
+            margin-left: 270px;
+        }
+        @keyframes blink{
+        0%  {opacity:  0;}
+        100%{opacity: 1;}
+        }
         </style>
 
 </head>
 <body>
+    <b class="Welcome">Welcome</b>
    <b class="discord" id="joinDiscord"><a href="https://discord.gg/RacNqVREp3" target="blank">Join Discord Server!</a><b>
 </body>
 </html>
